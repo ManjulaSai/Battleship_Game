@@ -1,0 +1,49 @@
+body {
+	background-image: url('battleship-war.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+#gameboard {
+	position: relative;
+	padding: 2px;
+	width: 500px;
+	height: 500px;
+}
+
+#gameboard div {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: #f6f8f9;
+	border: 1px solid #ddd;
+}
+
+#game-board-body {
+	padding-left: 75px;
+}
+#gameboard2 {
+	position: relative;
+	padding: 2px;
+	width: 500px;
+	height: 500px;
+}
+
+#gameboard2 div {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: #f6f8f9;
+	border: 1px solid #ddd;
+}
+
+#game-board-body2 {
+	padding-left: 75px;
+}
